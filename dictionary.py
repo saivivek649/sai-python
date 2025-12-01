@@ -41,6 +41,92 @@ print(marks)'''
 '''marks['alex']=100
 print(marks)'''
 
+#dictionary class function
+#method for adding new elements
+#update()-adds new key value pairs at theb end of an existing dictionary
+'''marks={'bob':80,'john':100}
+marks.update({'lilly':75,'rose':55})
+print(marks)'''
+#methods for removing elements
+#pop(key)
+'''marks.pop('john')
+print(marks)'''
+#popitem()
+'''marks.popitem()
+print(marks)'''
+#clear()
+'''marks.clear()
+print(marks)'''
+#methods for accessing values
+#marks={'bob':80,'john':100}
+#get()-safer way to access using keys
+'''print(marks.get('bob'))
+print(marks['bob'])'''
+#keys()
+''''marks={'bob':80,'john':100}
+print(marks.keys())'''
+#values()
+#print(marks.values())
+#items()
+'''print(marks.items())
+keys = marks.keys()
+values = marks.values()
+print(keys)
+print(values)
+marks['charles']=70
+print(keys)
+print(values)'''
+#avgreges
+'''student_marks ={'physics':50,'maths':80,'english':90}
+marks_lst=list(student_marks.values())
+avg=sum(marks_lst)/len(marks_lst)
+print(avg)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
